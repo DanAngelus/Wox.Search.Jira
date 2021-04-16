@@ -1,0 +1,19 @@
+{
+  "jiraWorkspaces": [
+    {
+      "name": "Bequeathed",
+      "keys": ["MB"],
+      "host": "bequeathed.atlassian.net"
+    },
+    {
+      "name": "Motability",
+      "keys": [ "FUSE" ],
+      "host": "motability.atlassian.net"
+    },
+    {
+      "name": "Tier 2 Consulting",
+      "keys": [ "CDD", "PREDPORTAL", "DLCROMMS", "SCOUTSHOPS", "BARCAP" ],
+      "host": "tier2consulting.atlassian.net"
+    }
+  ]
+}
