@@ -8,7 +8,7 @@
     {
       "name": "Motability",
       "keys": [ "FUSE" ],
-      "host": "motability.atlassian.net"
+      "host": "mocloud.atlassian.net"
     },
     {
       "name": "Tier 2 Consulting",

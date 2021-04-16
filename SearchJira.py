@@ -11,7 +11,7 @@ class SearchJira(Wox):
     def generate_response(self, ticket_number, project):
         return {
             'Title': f"{ticket_number}",
-            'SubTitle': f'Open: {ticket_number} in JIRA in your browser.',
+            'SubTitle': f'Open: {ticket_number} in {project["name"]} in your browser.',
             'IcoPath': 'Images/pic.png',
             'JsonRPCAction': {
                 'method': 'action',
