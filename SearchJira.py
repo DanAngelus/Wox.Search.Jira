@@ -40,7 +40,7 @@ class SearchJira(Wox):
             return [{
                 'Title': f"No project found for: {user_input}",
                 'SubTitle': f'Detected prefix: {ticket_prefix}',
-                'IcoPath': 'Images/pic.png'
+                'IcoPath': 'Images/notfound.png'
             }]
 
         responses.append(self.generate_response(user_input, project))
